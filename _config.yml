@@ -1,2 +1,4 @@
+url: 'https://ylajaaski.github.io/' # your main domain
+baseurl: 'state_space_page/' # if you're using custom domain keep this blank example: baseurl: ''
+
 theme: jekyll-theme-cayman
-markdown: GFM
