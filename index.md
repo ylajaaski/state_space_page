@@ -1,3 +1,3 @@
 ## Reinforcement Learning Visualized
 
-<img src="https://github.com/ylajaaski/state_space_page/blob/gh-pages/gifs/ucr_student4.gif" width="40" height="40" />
+![ucr_student4](https://user-images.githubusercontent.com/50364479/168881210-24df0869-0076-47f8-bce6-6e22eef562b1.gif)
