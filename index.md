@@ -8,14 +8,19 @@ A key knowledge gap in deep reinforcement learning (DRL) is the role of depth in
 
 ## Environment
 
-The environment is a simple 1D line where the agent has a starting position at zero and the goal is located at 100. The agent can either accelerate or deaccelarate to reach the goal state from the starting position. 
+We examine a toy 1-dimensional car environment is a simple 1D line where the agent has a starting position at zero and the goal is located at 100. The agent can either accelerate or deaccelarate to reach the goal state from the starting position. 
 
 ![Screen-Recording-2022-05-18-at-1 36 22](https://user-images.githubusercontent.com/50364479/168923762-e985f555-eebb-4727-8686-fc28beda565b.gif)
 
-### State Space Divisions of a 2x2 ReLU Policy Network (Teacher)
+## State Space Divisions of a 2x2 ReLU Policy Network (Teacher)
 
-Here we have visualized the cell divisions and actions during the training for teacher which has a 2x2 policy. The figure below shows the evolution of the actions during the training. Yellow color represents acceleration while purple denotes deacceleration. In all of the visualizations, the trajectory of the car is shown as a black line. 
+We examine states in a fixed window within the state space of the environment. For each state, we extract a binary embedding by binarizing and concatenating corresponding ReLU activations resulting from learned weights and biases. Visualizing the embeddings results in linear regions or "cells".
 
+<!-- Here we have visualized the cell divisions and actions during the training for teacher which has a 2x2 policy. The figure below shows the evolution of the actions during the training. Yellow color represents acceleration while purple denotes deacceleration. In all of the visualizations, the trajectory of the car is shown as a black line. 
+ -->
+ 
+As an example, here is the visualization of a 2x2 networ's evolution as it goes through the iterations of PPO.
+ 
 <img src="https://user-images.githubusercontent.com/50364479/171622561-cfa84caa-2e6b-46b1-ac3f-7291b7ab9dd9.gif" width="600">
 
 The figure below shows the cell divisions of the agent during the training.
@@ -25,8 +30,6 @@ The figure below shows the cell divisions of the agent during the training.
 The figure below visualizes the cell divisions of the last layer of the agent.
 
 <img src="https://user-images.githubusercontent.com/50364479/171622838-d517b639-bcc0-45eb-a8f5-db98ab470bc6.gif" width="600">
-
-
 
 ### State Space Divisions of a 2x2x2x2 ReLU Policy Network (Student)
 
