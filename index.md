@@ -1,6 +1,6 @@
 # Discovering Control-Intensive State Regions With Deeper Policy Networks
 
-![Click here to read our paper](https://github.com/ylajaaski/state_space_page/raw/gh-pages/StateSpaceFinalPaper.pdf)
+<a href="https://github.com/ylajaaski/state_space_page/raw/gh-pages/StateSpaceFinalPaper.pdf">Click here to read our paper</a>
 
 ## Abstract
 
