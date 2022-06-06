@@ -24,7 +24,7 @@ The figure below visualizes the cell divisions of the last layer of the agent.
 
 ### 2x2x2x2 student
 
-Next, we train a 2x2x2x2 student using the the teacher that was given as an example in the previous section. The actions during the training are visualized below.
+Next, we train a 2x2x2x2 student using the the teacher that was given as an example in the previous section. The actions during the training are visualized below. The first two layers are copied from the teacher and not optimized during the training.
 
 <img src="https://user-images.githubusercontent.com/50364479/171622802-8d872a30-1d40-4a44-936d-c40017d0f68f.gif" width="600">
 
@@ -32,7 +32,7 @@ The figure below shows the cell divisions of the agent during the training.
 
 <img src="https://user-images.githubusercontent.com/50364479/171622816-f781f7de-9507-4ac5-9531-ceb8d2c33e0a.gif" width="600">
 
-The figure below visualizes the cell divisions of the last layer of the agent.
+The figure below visualizes the cell divisions of the last two layers of the agent.
 
 <img src="https://user-images.githubusercontent.com/50364479/171622597-197b9e1b-338e-4252-9312-ff51f3483dc5.gif" width="600">
 
