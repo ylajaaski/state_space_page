@@ -1,6 +1,6 @@
 # Discovering Control-Intensive State Regions With Deeper Policy Networks
 
-![Paper](https://github.com/ylajaaski/state_space_page/raw/gh-pages/StateSpaceFinalPaper.pdf)
+![Click here to read our paper](https://github.com/ylajaaski/state_space_page/raw/gh-pages/StateSpaceFinalPaper.pdf)
 
 ## Abstract
 
@@ -41,7 +41,5 @@ The figure below shows the cell divisions of the agent during the training.
 The figure below visualizes the cell divisions of the last two layers of the agent.
 
 <img src="https://user-images.githubusercontent.com/50364479/171622597-197b9e1b-338e-4252-9312-ff51f3483dc5.gif" width="600">
-
-The final report can be found behind this link [report](https://github.com/ylajaaski/state_space_page/files/8842312/State_Space_Final_Paper__Copy_.pdf).
 
 
