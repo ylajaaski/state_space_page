@@ -8,7 +8,7 @@ The environment is a simple 1D line where the agent has a starting position at z
 
 ### 2x2 teacher
 
-![actions_3](https://user-images.githubusercontent.com/50364479/171622561-cfa84caa-2e6b-46b1-ac3f-7291b7ab9dd9.gif) ![full_3](https://user-images.githubusercontent.com/50364479/171622575-b7ccef67-0981-43e4-b5e4-541222a3f699.gif) ![last_3](https://user-images.githubusercontent.com/50364479/171622838-d517b639-bcc0-45eb-a8f5-db98ab470bc6.gif)
+![actions_3](https://user-images.githubusercontent.com/50364479/171622561-cfa84caa-2e6b-46b1-ac3f-7291b7ab9dd9.gif | width=100) ![full_3](https://user-images.githubusercontent.com/50364479/171622575-b7ccef67-0981-43e4-b5e4-541222a3f699.gif | width=100) ![last_3](https://user-images.githubusercontent.com/50364479/171622838-d517b639-bcc0-45eb-a8f5-db98ab470bc6.gif | width=100)
 
 
 ### 2x2x2x2 student
