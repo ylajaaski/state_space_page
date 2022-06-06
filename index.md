@@ -24,6 +24,6 @@ The environment is a simple 1D line where the agent has a starting position at z
 The final report can be found behind this link [report](https://github.com/ylajaaski/state_space_page/files/8842312/State_Space_Final_Paper__Copy_.pdf).
 
 
-<img src="https://user-images.githubusercontent.com/50364479/171622561-cfa84caa-2e6b-46b1-ac3f-7291b7ab9dd9.gif" width="400"> <img src="https://user-images.githubusercontent.com/50364479/171622561-cfa84caa-2e6b-46b1-ac3f-7291b7ab9dd9.gif" width="400"> <img src="https://user-images.githubusercontent.com/50364479/171622561-cfa84caa-2e6b-46b1-ac3f-7291b7ab9dd9.gif" width="400">
+<img src="https://user-images.githubusercontent.com/50364479/171622561-cfa84caa-2e6b-46b1-ac3f-7291b7ab9dd9.gif" width="350"> <img src="https://user-images.githubusercontent.com/50364479/171622561-cfa84caa-2e6b-46b1-ac3f-7291b7ab9dd9.gif" width="350"> <img src="https://user-images.githubusercontent.com/50364479/171622561-cfa84caa-2e6b-46b1-ac3f-7291b7ab9dd9.gif" width="350">
 
 
