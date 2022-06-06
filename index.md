@@ -12,7 +12,7 @@ The environment is a simple 1D line where the agent has a starting position at z
 
 ![Screen-Recording-2022-05-18-at-1 36 22](https://user-images.githubusercontent.com/50364479/168923762-e985f555-eebb-4727-8686-fc28beda565b.gif)
 
-### 2x2 teacher
+### State Space Divisions of a 2x2 ReLU Policy Network (Teacher)
 
 Here we have visualized the cell divisions and actions during the training for teacher which has a 2x2 policy. The figure below shows the evolution of the actions during the training. Yellow color represents acceleration while purple denotes deacceleration. In all of the visualizations, the trajectory of the car is shown as a black line. 
 
@@ -28,7 +28,7 @@ The figure below visualizes the cell divisions of the last layer of the agent.
 
 
 
-### 2x2x2x2 student
+### State Space Divisions of a 2x2x2x2 ReLU Policy Network (Student)
 
 Next, we train a 2x2x2x2 student using the the teacher that was given as an example in the previous section. The actions during the training are visualized below. The first two layers are copied from the teacher and not optimized during the training.
 
