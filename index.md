@@ -8,7 +8,7 @@ A key knowledge gap in deep reinforcement learning (DRL) is the role of depth in
 
 ## Environment
 
-We examine a toy 1-dimensional car environment is a simple 1D line where the agent has a starting position at zero and the goal is located at 100. The agent can either accelerate or deaccelarate to reach the goal state from the starting position. 
+We examine a toy 1-dimensional car environment. In this environment, the agent is tasked with moving a car starting at $x=0$ and parking it at $x=100$. The car's state is parameterized by its $x$-position and $x$-velocity (continuous). The agent uses discrete actions: accelerate (+1), do nothing (0), or deaccelarate (-1) to reach the goal state. The toy car problem can be visualized as simply as the following GIF:
 
 ![Screen-Recording-2022-05-18-at-1 36 22](https://user-images.githubusercontent.com/50364479/168923762-e985f555-eebb-4727-8686-fc28beda565b.gif)
 
