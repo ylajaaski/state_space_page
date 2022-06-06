@@ -23,6 +23,9 @@ The environment is a simple 1D line where the agent has a starting position at z
 
 ![last_3](https://user-images.githubusercontent.com/50364479/171622597-197b9e1b-338e-4252-9312-ff51f3483dc5.gif)
 
+### pdf
+
+[State_Space_Final_Paper__Copy_.pdf](https://github.com/ylajaaski/state_space_page/files/8842312/State_Space_Final_Paper__Copy_.pdf)
 
 
 
