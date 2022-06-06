@@ -1,4 +1,8 @@
-## Reinforcement Learning Visualized
+# Discovering Control-Intensive State Regions With Deeper Policy Networks
+
+## Abstract
+
+A key knowledge gap in deep reinforcement learning (DRL) is the role of depth in policy networks. While the conventional 2-layered fully-connected networks (FCNs) tend to work sufficiently well for most tasks, we hypothesize that additional layers contribute to the expressivity of FCN policies by introducing finer-grained mapping from the state space to actions. Our fine-tuning experiments isolate the effects of additional layers for a DRL agent deployed on a simple 1D toy car problem. Both qualitative and quantitative analyses are presented to examine the evolution of added layers as fine-tuning progresses. Our results indicate that deeper layers afford more granularity in state-action mappings to control-intensive regions in the state space.
 
 ## Environment
 
