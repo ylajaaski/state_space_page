@@ -14,22 +14,21 @@ We examine a toy 1-dimensional car environment is a simple 1D line where the age
 
 ## State Space Divisions of a 2x2 ReLU Policy Network (Teacher)
 
-We examine states in a fixed window within the state space of the environment. For each state, we extract a binary embedding by binarizing and concatenating corresponding ReLU activations resulting from learned weights and biases. Visualizing the embeddings results in linear regions or "cells".
+We examine states in a fixed window within the state space of the environment. For each state, we extract a binary embedding by binarizing and concatenating corresponding ReLU activations resulting from learned weights and biases. We also include one-hot embeddings of the discrete actions at each state in the embeddings. Visualizing the embeddings results in linear regions or "cells".
 
 <!-- Here we have visualized the cell divisions and actions during the training for teacher which has a 2x2 policy. The figure below shows the evolution of the actions during the training. Yellow color represents acceleration while purple denotes deacceleration. In all of the visualizations, the trajectory of the car is shown as a black line. 
  -->
  
-As an example, here is the visualization of a 2x2 networ's evolution as it goes through the iterations of PPO.
+As an example, here is the visualization of a 2x2 networ's evolution as it goes through the iterations of PPO. The below figure shows the division between positive (yellow) and negative (purple) actions.
  
 <img src="https://user-images.githubusercontent.com/50364479/171622561-cfa84caa-2e6b-46b1-ac3f-7291b7ab9dd9.gif" width="600">
 
-The figure below shows the cell divisions of the agent during the training.
+The underlying cell divisions are visualized here:
 
 <img src="https://user-images.githubusercontent.com/50364479/171622575-b7ccef67-0981-43e4-b5e4-541222a3f699.gif" width="600">
 
-The figure below visualizes the cell divisions of the last layer of the agent.
 
-<img src="https://user-images.githubusercontent.com/50364479/171622838-d517b639-bcc0-45eb-a8f5-db98ab470bc6.gif" width="600">
+<!-- <img src="https://user-images.githubusercontent.com/50364479/171622838-d517b639-bcc0-45eb-a8f5-db98ab470bc6.gif" width="600"> -->
 
 ### State Space Divisions of a 2x2x2x2 ReLU Policy Network (Student)
 
